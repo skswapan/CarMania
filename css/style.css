@@ -1,0 +1,56 @@
+.okk{
+    height: auto I !important;
+}
+.accha{
+    width: 100%;
+    height: 200px;
+}
+.accha img{
+    width: 100%;
+}
+.accha_one{
+    width: 100%;
+    height: 200px;
+}
+.accha_one img{
+    width: 100%;
+}
+.amni{
+    height: 170px !important;
+}
+.tumi{
+    color: red !important;
+}
+.tumi hover{
+    color: red !important;
+    transition: 0.5s;
+}
+.aktuuu{}
+.aktuuu li{}
+.aktuuu li a{}
+.aktuuu li a:hover{
+    color: red !important;
+    transition: 0.5s;
+}
+.ak{}
+.ak p{}
+.ak p a{
+    font-family: "Dancing Script", cursive;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 425px){
+    .accha{
+
+    }
+    .accha_one{
+
+    }
+
+    .aktu{
+        text-align: center !important;
+    }
+    .aktu p{
+        text-align: center  !important;
+    }
+    .aktu p i{}
+}
