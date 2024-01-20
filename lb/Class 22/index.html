@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1 id="abar">car<span style="color: red;">Mania</span></h1>
+    <section class="all">
+        <div class="form">
+            <h1 class="hawa">car<span style="color: red;">Mania</span></h1>
+            <input type="text" placeholder="Enter your name">
+            <input type="email" placeholder="Enter your E-mail">
+            <input type="password" placeholder="Enter your Password">
+            <button type="submit">log in</button>
+            <button id="aso" type="submit">sign up</button>
+        </div>
+    
+        <section class="form2">
+            <div class="form signup">
+                <h1 class="hawa">car<span style="color: red;">Mania</span></h1>
+                <input type="text" placeholder="Enter your name">
+                <input type="email" placeholder="Enter your E-mail">
+                <input type="password" placeholder="Enter your Password">
+                <button id="colejaw" type="submit">sign up</button>
+            </div>
+        </section>
+    </section>
+    
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".hawa").click(function(){
+                $(".form").hide(1000);
+            });
+            $("#aso").click(function(){
+                $(".form2").toggle("fade");
+            });
+            $("#colejaw").click(function(){
+                $(".form2").hide("fade");
+            });
+            $("#abar").click(function(){
+                $(".form").show("fade");
+            });
+        });
+    </script>
+</body>
+</html>

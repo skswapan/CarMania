@@ -1,0 +1,111 @@
+h1,h2,h3,h4,h5,h6,p{
+    padding: 0;
+    margin: 0;
+}
+body{
+    
+    background: url(../images/man-362150_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 50px;
+    cursor: pointer;
+}
+.all{
+    text-align: center !important;
+    display: flex;
+}
+.form{
+    width: 300px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border: none;
+    box-shadow: 3px 3px 7px black;
+    border-radius: 8px;
+    margin-left: 140px;
+    margin-top: 155px;
+    background: url(../images/man-362150_1280.jpg);
+}
+.form h1{
+    text-transform: capitalize;
+    font-size: 35px;
+    font-family: math;
+    margin-bottom: 5px;
+    cursor: pointer;
+    color: white;
+}
+.form input{
+    width: 85%;
+    padding: 10px;
+    margin-bottom: 7px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    background: white;
+    box-shadow: 1px 1px 3px black;
+    color: black;
+}
+.form button{
+    width: 120px;
+    text-transform: capitalize;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-family: math;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    background: black;
+    color: white;
+
+
+}
+.form button:hover{
+   cursor: pointer;
+}
+.form2{
+    display: none;
+    margin-left: 0px !important;
+}
+
+@media only screen and (min-width:320px) and (max-width:425px){
+    h1,h2,h3,h4,h5,h6,p{
+        
+    }
+    body{
+        
+       
+    }
+    .all{
+        
+        display: inline-block;
+    }
+    .form{
+        margin-left: 0px;
+        width: 100%;
+        margin-top: 20px !important;
+    
+    }
+    .form h1{
+        
+    }
+    .form input{
+        
+    }
+    .form button{
+        
+    
+    
+    }
+    .form button:hover{
+       
+    }
+    .form2{
+        margin-top: 20px !important;
+    }
+}
